@@ -4,14 +4,6 @@ title: "Why use GIT and hang CVS?"
 categories: [GIT, CVS, Prezi, Presentation]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 I recently delivered a presentation on _** Why use GIT and leave CVS **_.
 It covers various aspects where [CVS](http://en.wikipedia.org/wiki/Concurrent_Versions_System) is a total failure, thus stressing upon the need to change.  
 

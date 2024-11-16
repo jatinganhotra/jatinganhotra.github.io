@@ -4,14 +4,6 @@ title: "From Disqus to IntenseDebate & back again"
 categories: [Disqus, Commenting Systems]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 I was flabbergasted when I went to my [Tech Blog](http://jatinganhotra.com) yesterday and looked over at the **ads** in the
 '_Comments_' section powered by [Disqus](http://disqus.com/). 
 

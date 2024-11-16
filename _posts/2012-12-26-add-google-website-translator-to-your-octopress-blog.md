@@ -4,14 +4,6 @@ title: "Add Google Website Translator to your Octopress Blog"
 categories: [Google Website Translator, Octopress, Blogging-tips, Blog]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 Most countries in the world have English as their [official language](http://en.wikipedia.org/wiki/List_of_countries_where_English_is_an_official_language), but there are many countries where people [don't know English](http://en.wikipedia.org/wiki/File:English-as-Official-Language_Map.png). So, it's good to have a website translator if people from such countries visit your blog. This article will show you how to add [Google Website Translator](http://translate.google.com/manager/website/) to your [Octopress](http://octopress.org/) blog.  
 
 Recently, [Google](http://www.google.com/) [announced in a post](http://googletranslate.blogspot.in/2012/05/now-you-can-polish-up-googles.html) on their [Google translate blog](http://googletranslate.blogspot.in/) that they are introducing a beta website translator for blogs and websites.  Google translate currently works over 60 languages.  Once you add the customization meta tag to a webpage, visitors will see your customized translations whenever they translate the page, even when they use the feature in [Chrome](https://www.google.com/intl/en-GB/chrome/browser/features.html) and [Google Toolbar](http://www.google.com/toolbar/ie/index.html). They’ll also now be able to '[suggest a better translation](http://googleblog.blogspot.in/2007/03/suggest-better-translation.html)' when they notice a translation that’s not quite right, and later you can accept and use that suggestion on your site.  

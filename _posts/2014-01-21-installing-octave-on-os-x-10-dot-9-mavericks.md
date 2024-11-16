@@ -4,14 +4,6 @@ title: "Installing Octave on OS X 10.9 Mavericks"
 categories: [Mac OS X, Octave, How to Install]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 If you upgraded to OS X 10.9 Mavericks and have started to like the latest enhancements in Finder, new iBooks and Maps applications etc., installing Octave is going to make you forget all of it. The installation process is a herculean task and you better pray to God that you don't run into much issues like I did.
 
 I found decent help from here - [Getting Octave to Just Goddamn Work Already on OS X 10.8 Mountain Lion](http://ntraft.com/getting-octave-to-work-on-mountain-lion/), thanks to [Neil Traft](http://ntraft.com) for putting it together.  

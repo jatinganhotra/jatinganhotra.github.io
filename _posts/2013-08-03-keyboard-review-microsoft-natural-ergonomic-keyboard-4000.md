@@ -4,14 +4,6 @@ title: "Keyboard Review - Microsoft Natural Ergonomic Keyboard 4000"
 categories: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 As a software developer, I spend about 6-8 hours typing on a typical day. My search for a better keyboard began, when I started having wrist pain and my fingers felt enervated after a few hours. On doing some research, I found that these are the symptoms of an [Repetitive Strain Injury(RSI)](http://en.wikipedia.org/wiki/Repetitive_strain_injury). Other than maintaining a good posture while sitting, I started investigating keyboards which allowed writing with ease and placed my wrists in a comfortable position.
 
 Many questions and articles such as:  

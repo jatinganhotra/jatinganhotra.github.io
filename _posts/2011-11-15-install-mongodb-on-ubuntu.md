@@ -4,14 +4,6 @@ title: "Install MongoDB on Ubuntu"
 categories: [Ubuntu, MongoDB, How to Install]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script src="{{ root_url }}/javascripts/jquery.accordion.js"></script>
 <script src="{{ root_url }}/javascripts/jquery.easing.1.3.js"></script>

@@ -5,14 +5,6 @@ date: 2012-11-25 21:00
 categories: [Forward Class Declaration, C++, Coding Tips]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 "In computer programming, a [forward declaration]("http://en.wikipedia.org/wiki/Forward_declaration) is a declaration of an identifier (denoting an entity such as a type, a variable, or a function) for which the programmer has not yet given a complete definition."
 
 In C++, you should forward declare classes instead of including headers. Don't use an #include when a forward declaration would suffice.

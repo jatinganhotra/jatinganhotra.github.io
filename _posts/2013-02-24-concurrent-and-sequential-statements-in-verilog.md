@@ -4,14 +4,6 @@ title: "Concurrent and Sequential statements in Verilog"
 categories: [Verilog]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 This is a brief post for beginners to Verilog language, coming from a C/Java background.
 Verilog  differs from a conventional programming language in the sense that the execution of statements is not strictly sequential. Different code blocks are executed concurrently as opposed to the sequential execution of most programming languages. So, a beginner might get  perplexed, as to what is concurrent and what is not !!
 

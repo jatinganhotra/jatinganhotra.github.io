@@ -4,14 +4,6 @@ title: "C++ - Variable Declaration in 'if' expression"
 categories: [C, C++, Coding Tips, Variable Declaration]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 Recently, I encountered a strange compiler error at work. I was trying something similar to this:
 {% codeblock lang:objc %}
 if( (int var1 = func1() ) && ( int var2 = func2() ) )

@@ -4,14 +4,6 @@ title: "Comparison is always false due to limited range of data type"
 categories: [C, C++, Coding Tips]
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<div>
-<span style="float:right;" id="google_translate_element"></span>
-<span style="float:right; font-family: 'Coming Soon', cursive;">Having trouble viewing in English, Choose Your Language : &nbsp;&nbsp;&nbsp;</span>
-</div>
-<BR>&nbsp;<BR>
-
 This is a small and crisp post over this warning message that appeared quite strange at first. On a closer look though, the reason behind it was pretty clear and straight-forward.
 
 > warning: comparison is always false due to limited range of data type
