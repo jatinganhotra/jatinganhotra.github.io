@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello, I'm Jatin Ganhotra. I am a Senior Software Engineer at [IBM Research AI for Code](https://research.ibm.com/topics/ai-for-code/), [Thomas J. Watson Research Center](https://www.research.ibm.com/labs/watson/) building autonomous SWE-Agents for intelligent code generation, issue localization, new feature development and software testing.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I graduated from [University of Illinois, Urbana Champaign](https://illinois.edu/) in Fall'15, with Masters in Computer Science.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+You can learn more about my current work here: [IBM SWE-Agents](https://research.ibm.com/blog/ibm-swe-agents).
