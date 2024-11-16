@@ -2,11 +2,7 @@
 layout: post
 title: "Forward Class Declaration in C++"
 date: 2012-11-25 21:00
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [Forward Class Declaration, C++, Coding Tips]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

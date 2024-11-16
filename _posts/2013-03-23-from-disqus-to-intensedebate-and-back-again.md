@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "From Disqus to IntenseDebate & back again"
-date: 2013-03-23 13:48
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [Disqus, Commenting Systems]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

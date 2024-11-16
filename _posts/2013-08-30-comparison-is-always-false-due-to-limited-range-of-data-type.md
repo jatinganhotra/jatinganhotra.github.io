@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Comparison is always false due to limited range of data type"
-date: 2013-07-21 21:17
-author: Jatin Ganhotra (@jatinganhotra)
-comments: true
 categories: [C, C++, Coding Tips]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

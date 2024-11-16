@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Install MongoDB on Ubuntu"
-date: 2011-11-15 01:33
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [Ubuntu, MongoDB, How to Install]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

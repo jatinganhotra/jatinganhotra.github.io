@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Keyboard Review - Microsoft Natural Ergonomic Keyboard 4000"
-date: 2013-06-29 11:05
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

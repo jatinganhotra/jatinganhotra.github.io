@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Why use GIT and hang CVS?"
-date: 2012-11-03 10:20
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [GIT, CVS, Prezi, Presentation]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

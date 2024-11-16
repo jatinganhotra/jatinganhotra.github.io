@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Integer Limits and Types In C/C++"
-date: 2012-08-25 10:20
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [C, C++, Coding Tips, Integer Limits]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

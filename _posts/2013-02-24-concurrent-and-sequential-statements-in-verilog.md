@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Concurrent and Sequential statements in Verilog"
-date: 2013-02-24 22:32
-comments: true
-author: Jatin Ganhotra (@jatinganhotra)
 categories: [Verilog]
-sharing: true
-footer: true
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Coming+Soon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
