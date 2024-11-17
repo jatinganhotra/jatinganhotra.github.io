@@ -28,11 +28,11 @@ plugins:
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
-  - about.md
   - publications.md
+  - about.md
 
 # Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
+show_excerpts: false
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
@@ -44,7 +44,7 @@ minima:
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: solarized-light
   
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 

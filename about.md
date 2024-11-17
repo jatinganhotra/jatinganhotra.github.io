@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div>
-<img  style="display: block; margin: auto; float: right!important; width: 30%;" src="./IBM-TechXchange-Oct-22.jpeg">
+<img  style="display: block; margin: auto; float: right!important; width: 30%;" src="/assets/images/IBM-TechXchange-Oct-22.jpeg" width="300" height="300">
 </div>
 <!-- ![image alt >](./images/IBM-TechXchange-Oct-22.jpeg#left) -->
 
