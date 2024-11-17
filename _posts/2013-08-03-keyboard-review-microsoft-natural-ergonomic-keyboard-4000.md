@@ -12,11 +12,11 @@ Many questions and articles such as:
 
 led me to [Microsoft Natural Ergonomic Keyboard 4000](http://www.microsoft.com/hardware/en-us/p/natural-ergonomic-keyboard-4000/B2M-00012).
 
-![Microsoft Natural Ergonomic Keyboard >](./../assets/images/Microsoft_Natural_Ergonomic_keyboard.jpg)
+![Microsoft Natural Ergonomic Keyboard >](/assets/images/Microsoft_Natural_Ergonomic_keyboard.jpg)
 
 **Microsoft Natural Ergonomic Keyboard 4000** is an ergonomic split-style keyboard which allows you to rest your wrists against the plush palm rest in a relaxed, natural angle with this keyboard’s curved key bed, ergonomic arc and reversed slope. The wrist pad is made of a nicely textured faux leather material with a tiny bit of padding which feels both comfortable and durable. 
 
-![Reverse Slope >](./../assets/images/Microsoft_Natural_Ergonomic_keyboard_reverse_slope.jpg)
+![Reverse Slope >](/assets/images/Microsoft_Natural_Ergonomic_keyboard_reverse_slope.jpg)
 The _reverse slope_ helps your hand and wrist rest more naturally. You can use the keyboard in the reversed slope position or with the front riser, depending on which of the two positions align your wrist perfectly.  
 
 Apart from comfort, there are quick and customizable ways to reach files, folders, and web pages with handy hot keys. Yes, the keyboard does come with software for the programmable keys and extra functions. Sadly, not for Linux versions e.g CentOS, due to which I haven’t been able to customize it further at work. The natural alignment of wrists and fingers has given me so much relief that I've never felt that I'm missing out on a lot of customisations that it provides. I do plan to try it out with my Macbook Pro sometime and look at the customisations being offered.  

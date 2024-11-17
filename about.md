@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-<!-- <img  style="display: block; margin: auto;" src="./IBM-TechXchange-Oct-22.jpeg"> -->
+<div>
+<img  style="display: block; margin: auto; float: right!important; width: 30%;" src="./IBM-TechXchange-Oct-22.jpeg">
+</div>
 <!-- ![image alt >](./images/IBM-TechXchange-Oct-22.jpeg#left) -->
 
-![image](/assets/images/IBM-TechXchange-Oct-22.jpeg){: style="float: left; margin-right: 3em;"}
+<!-- ![image](/assets/images/IBM-TechXchange-Oct-22.jpeg){: style="float: left; margin-right: 3em;"} -->
 
 Hello, I'm Jatin Ganhotra. I am a Senior Software Engineer at [IBM Research AI for Code](https://research.ibm.com/topics/ai-for-code/), [Thomas J. Watson Research Center](https://www.research.ibm.com/labs/watson/) building autonomous SWE-Agents for intelligent code generation, issue localization, new feature development and software testing.
     
