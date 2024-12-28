@@ -16,7 +16,16 @@ layout: base
     {% assign posts = site.posts %}
   {% endif %}
 
+  <h2><i>A New Chapter in Blogging: Exploring the World of Agents</h2></i>
 
+  After a decade-long hiatus, I am thrilled to announce my return to blogging! This new journey will center around the fascinating and ever-evolving domain of Agents, with a particular focus on Software Engineering Agents (SWE-Agents).
+  <br><br>
+  Through this blog, I aim to share insights, ideas, and developments in this exciting field. My goal is to spark thought-provoking discussions and provide content that is both insightful and valuable to readers. Your feedback and perspectives will be invaluable, so I warmly invite you to share your thoughts in the comments and join the conversation.
+  <br><br>
+  <!-- For those who have followed my earlier work, you’ll be pleased to know that posts from my blog’s previous iteration are available below. Whether you're a returning reader or new to my writings, I hope you find this space engaging and inspiring.
+  <br><br>
+  Stay tuned for a journey filled with innovation, exploration, and collaboration!
+  <br><br> -->
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -24,6 +33,9 @@ layout: base
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
+      {% capture post_year %}{{post.date | date: "%Y" }}{% endcapture %}
+      {% assign post_year_integer = post_year | to_integer %}
+      {%- if post_year_integer > 2020 -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -32,9 +44,35 @@ layout: base
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}
         {%- endif -%}
       </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+    <hr/>
+    <h2><i>Posts from my blog’s previous iteration are available below:</h2></i>
+    <!-- Stay tuned for a journey filled with innovation, exploration, and collaboration!
+    <br><br> -->
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      {% capture post_year %}{{post.date | date: "%Y" }}{% endcapture %}
+      {% assign post_year_integer = post_year | to_integer %}
+        {%- if post_year_integer < 2020 -%}
+        <li>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}
+          {%- endif -%}
+        </li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
 

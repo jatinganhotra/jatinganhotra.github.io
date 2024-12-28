@@ -4,6 +4,9 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <!-- <div>
+      <img  style="display: block; margin: auto; float: left!important;" src="/assets/images/IBM-TechXchange-Oct-22.jpeg" width="90" height="90">
+    </div> -->
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if titles_size > 0 -%}
