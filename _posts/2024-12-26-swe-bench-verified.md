@@ -95,7 +95,16 @@ If we divide the results between these 2 buckets, we get:
 |     Tools + Claude 3.5 Sonnet (2024-10-22)    |          49.0 (245)         |         55.24 (237)        |        11.27 (8)        |
 |             Composio SWE-Kit (2024-10-25)            |          48.6 (243)         |         55.24 (237)        |        8.45 (6)         |
 
-The performance of the top-10 systems drops significantly for the multiple files category.
+<!-- The performance of the top-10 systems drops significantly for the multiple files category. -->
+
+<!-- {% quote %}
+  No <code>cite</code> or <code>url</code>
+  was provided for this quote.
+{% endquote %} -->
+
+{% quote %}
+  The performance of the top-10 systems on SWE-Bench Verified <code>drops significantly</code> for the multiple files category.
+{% endquote %}
 
 ## SWE-Bench test set
 
@@ -154,7 +163,11 @@ If we look at the leaderboard for SWE-Bench full test set (top-5 systems), as of
 | Amazon Q Developer Agent (v20240719-dev)          | 19.75 (453)     |         24.38 (420)         |         5.78 (33)         |
 | Factory Code Droid                                | 19.27 (442)     |         23.74 (409)         |         5.78 (33)         |
 
-We observe the same trend. The performance of the top-5 systems drops significantly for the multiple files category.
+<!-- We observe the same trend. The performance of the top-5 systems drops significantly for the multiple files category. -->
+
+{% quote %}
+  We observe the same trend. The performance of the top-5 systems on the (full) SWE-Bench test set <code>drops significantly</code> for the multiple files category.
+{% endquote %}
 
 Perhaps we don't need to worry about the multiple files category, if we assume that the 75%-25% ratio in the SWE-Bench test set is reflective of the real-world Github issues.
 To validate our assumption, let's take a look at the SWE-Bench train set.
@@ -309,12 +322,16 @@ Aggregating the above statistics for the percentage of Github issues which requi
 
 |              Dataset               |   % issues >1 file |
 |------------------------------------|--------------------|
-|  SWE-Bench train set               |     50.27          |
+|  SWE-Bench train set               |     <b>50.27</b>          |
 |  SWE-Bench train set (<= 5 files)  |     44.58          |
 |  SWE-Bench test set                |     24.89          |
-|  SWE-Bench_Verified test set       |     14.2           |
+|  SWE-Bench_Verified test set       |     <i>14.2</i>           |
 
-If we consider the SWE-Bench train set as a representative of real-world, then by the same definition, we can not consider the SWE-Bench_Verified test set as the true representative of our progress on SWE tasks given the much lower percentage of issues which require changes across >1 file for resolution.
+<!-- If we consider the SWE-Bench train set as a representative of real-world, then by the same definition, we can not consider the SWE-Bench_Verified test set as the true representative of our progress on SWE tasks given the much lower percentage of issues which require changes across >1 file for resolution. -->
+
+{% quote %}
+  If we consider the SWE-Bench train set as a representative of real-world, then by the same definition, we can not consider the SWE-Bench_Verified test set as the true representative of our progress on SWE tasks given the much lower percentage of issues which require changes across >1 file for resolution.
+{% endquote %}
 
 ## Takeaways
 - We have made tremendous progress on the `SWE-Bench_Verified` task, but there's much more to be done when it comes to building systems which are good at  _**understanding and coordinating changes across multiple functions, classes, and even files simultaneously**_. Perhaps the current systems (and models) are really good; and we need to curate better evaluation benchmarks. 
