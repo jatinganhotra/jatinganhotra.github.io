@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SWE-Bench Verified ⊊ real-world SWE tasks"
-# categories: [SWE-Bench, SWE-Bench_Verified, SWE]
+categories: [blog, swe-agents]
 tags: [SWE-Bench, SWE-Bench_Verified]
 ---
 

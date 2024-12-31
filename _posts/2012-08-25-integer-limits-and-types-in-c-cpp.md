@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Integer Limits and Types In C/C++"
-# categories: [C, C++, Coding Tips, Integer Limits]
+categories: [blog, c++]
 tags: [C, C++, Coding Tips, Integer Limits]
 ---
 

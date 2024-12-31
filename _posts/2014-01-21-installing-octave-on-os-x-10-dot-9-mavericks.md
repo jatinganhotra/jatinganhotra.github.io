@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Installing Octave on OS X 10.9 Mavericks"
-# categories: [Mac OS X, Octave, How to Install]
+categories: [blog]
 tags: [Mac OS X, Octave, How to Install]
 ---
 

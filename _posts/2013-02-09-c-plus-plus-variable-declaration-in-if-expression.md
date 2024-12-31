@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C++ - Variable Declaration in 'if' expression"
-# categories: [C, C++, Coding Tips, Variable Declaration]
+categories: [blog, c++]
 tags: [C, C++, Coding Tips, Variable Declaration]
 ---
 

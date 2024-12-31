@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparison is always false due to limited range of data type"
-# categories: [C, C++, Coding Tips]
+categories: [blog, c++]
 tags: [C, C++, Coding Tips]
 ---
 

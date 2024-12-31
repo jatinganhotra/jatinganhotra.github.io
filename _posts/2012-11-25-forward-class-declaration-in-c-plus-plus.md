@@ -2,7 +2,7 @@
 layout: post
 title: "Forward Class Declaration in C++"
 date: 2012-11-25 21:00
-# categories: [Forward Class Declaration, C++, Coding Tips]
+categories: [blog, c++]
 tags: [Forward Class Declaration, C++, Coding Tips]
 ---
 

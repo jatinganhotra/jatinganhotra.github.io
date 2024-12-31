@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why use GIT and hang CVS?"
-# categories: [GIT, CVS, Prezi, Presentation]
+categories: [blog]
 tags: [GIT, CVS, Prezi, Presentation]
 ---
 

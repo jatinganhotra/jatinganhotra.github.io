@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keyboard Review - Microsoft Natural Ergonomic Keyboard 4000"
-# categories: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
+categories: [blog, review]
 tags: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
 ---
 

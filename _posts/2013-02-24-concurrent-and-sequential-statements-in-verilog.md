@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Concurrent and Sequential statements in Verilog"
-# categories: [Verilog]
+categories: [blog, verilog]
 tags: [Verilog]
 ---
 
