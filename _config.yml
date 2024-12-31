@@ -1,11 +1,18 @@
 title: Jatin Ganhotra
 author:
   name: Jatin Ganhotra
+logo: /assets/images/DALLE.png
 image:
   # path: DALLE 2024-12-30 20.29.18 - A futuristic scene focusing on a male human of Indian descent interacting with a computer orchestrating various software engineering tools.WebP
-  src: /assets/images/DALLE.WebP
+  path: /assets/images/DALLE.png
   height: 100
   width: 100
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-card.png
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
