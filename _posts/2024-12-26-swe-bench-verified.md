@@ -12,26 +12,26 @@ The title "SWE-Bench Verified `⊊` real-world SWE tasks", conveys 2 points:
 Let's dive in.
 
 The year 2024 has been a thrilling time for SWE Agents, with the SWE-Bench leaderboard buzzing with activity throughout the year.
-SWE-Bench [[1]](#1) is a well known benchmark in the community for software engineering. Some notable events are:
-- Devin[[2]](#2) was announced on March 12, 2024 and set a new state-of-the-art, on a random 25% subset of the dataset, and
+[SWE-Bench](http://www.swebench.com) is a well known benchmark in the community for software engineering. Some notable events are:
+- Devin was [announced](https://www.cognition.ai/blog/introducing-devin) on March 12, 2024 and set a new state-of-the-art, on a random 25% subset of the dataset, and
 - release of the updated [Claude 3.5 Sonnet](https://x.com/OfirPress/status/1858567863788769518) model setting a [new state-of-the-art](https://www.anthropic.com/research/swe-bench-sonnet) on SWE-Bench_Verified on Oct 30, 2024.
 
 ## SWE-Bench Introduction
 
 There are 3 benchmarks when we talk about SWE-Bench:
-- SWE-Bench[[3]](#3)
-- SWE-Bench_Lite[[4]](#4)
-- SWE-bench_Verified[[5]](#5)
+- [SWE-Bench](https://huggingface.co/datasets/princeton-nlp/SWE-bench)
+- [SWE-Bench_Lite](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Lite)
+- [SWE-bench_Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified)
 
-The SWE-Bench authors[[6]](#6) introduce `SWE-Bench` as:
+The [authors](https://openreview.net/forum?id=VTF8yNQM66) introduce `SWE-Bench` as:
 > an evaluation framework consisting of 2,294 software engineering problems drawn from real GitHub issues and corresponding pull requests across 12 popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue.
 
 Since the initial performance on the full SWE-Bench was quite low, the authors created a Lite subset of 300 instances, `SWE-Bench_Lite`, that have been sampled to be more self-contained, with a focus on evaluating functional bug fixes. Full details of the Lite split and filtering details are included in Appendix A.7 in the paper.
 
-On August 13, 2024[[7]](#7), OpenAI released a human-validated subset of 500 instances from SWE-bench, `SWE-bench_Verified`, that
+On [August 13, 2024](https://openai.com/index/introducing-swe-bench-verified/), OpenAI released a human-validated subset of 500 instances from SWE-bench, `SWE-bench_Verified`, that
 > more reliably evaluates AI models’ ability to solve real-world software issues.
 
-For additional details on the SWE-Bench_Verified benchmark, please refer to [[7]](#7).
+For additional details on the SWE-Bench_Verified benchmark, please refer to [OpenAI page](https://openai.com/index/introducing-swe-bench-verified/).
 
 ## Leaderboard
 
@@ -65,7 +65,7 @@ Let's take a deeper dive into the results while keeping in mind the following st
 
 If we look at the number of files per Github issue which must be modified to resolve it for `SWE-Bench_Verified`, we get:
 
-|   # files  | # instances |
+|   files  | instances |
 |------------|-------------|
 |     1      |     429     |
 |     2      |      49     |
@@ -95,13 +95,6 @@ If we divide the results between these 2 buckets, we get:
 |               nFactorial (2024-11-05)               |          49.2 (246)         |         55.01 (236)        |       14.08 (10)        |
 |     Tools + Claude 3.5 Sonnet (2024-10-22)    |          49.0 (245)         |         55.24 (237)        |        11.27 (8)        |
 |             Composio SWE-Kit (2024-10-25)            |          48.6 (243)         |         55.24 (237)        |        8.45 (6)         |
-
-<!-- The performance of the top-10 systems drops significantly for the multiple files category. -->
-
-<!-- {% quote %}
-  No <code>cite</code> or <code>url</code>
-  was provided for this quote.
-{% endquote %} -->
 
 {% quote %}
   The performance of the top-10 systems on SWE-Bench Verified <code>drops significantly</code> for the multiple files category.
@@ -136,7 +129,7 @@ If we look at the distribution of number of files per Github issue which must be
 |     23      |     2       |
 |     31      |     1       | -->
 
-|   # files  | # instances |
+|    files  |  instances |
 |------------|-------------|
 |     1      |     1723     |
 |     2      |     308     |
@@ -163,8 +156,6 @@ If we look at the leaderboard for SWE-Bench full test set (top-5 systems), as of
 | Honeycomb                                       | 22.06 (506)     |          26.7 (460)         |         8.06 (46)         |
 | Amazon Q Developer Agent (v20240719-dev)          | 19.75 (453)     |         24.38 (420)         |         5.78 (33)         |
 | Factory Code Droid                                | 19.27 (442)     |         23.74 (409)         |         5.78 (33)         |
-
-<!-- We observe the same trend. The performance of the top-5 systems drops significantly for the multiple files category. -->
 
 {% quote %}
   We observe the same trend. The performance of the top-5 systems on the (full) SWE-Bench test set <code>drops significantly</code> for the multiple files category.
@@ -278,7 +269,7 @@ If we look at the distribution of number of files per Github issue which must be
 |     292      |     1     |
 |     328      |     1     | -->
 
-|   # files  | # instances |
+|    files  |  instances |
 |------------|-------------|
 |     1      |     8783     |
 |     2      |     4023     |
@@ -296,7 +287,7 @@ If we look at the distribution of number of files per Github issue which must be
 |     101-200      |     16     |
 |     201+      |     5     |
 
-There are 19008 instances in the train set and unidiff [[8]](#8) parser (v0.7.5) was unable to parse 1348 instances, so we have the statistics for 17660 instances.
+There are 19008 instances in the train set and [unidiff](https://pypi.org/project/unidiff/) parser (v0.7.5) was unable to parse 1348 instances, so we have the statistics for 17660 instances.
 But, the above distribution paints an entirely different picture.
 
 For simplicity, let's divide the `SWE-Bench train` set in the same 2 buckets as before:
@@ -305,7 +296,7 @@ For simplicity, let's divide the `SWE-Bench train` set in the same 2 buckets as 
 
 If we assume that the instances which require > than 5 files are not representative of most day-to-day SWE tasks and exclude them, we get:
 
-|   # files  | # instances |
+|   files  | instances |
 |------------|-------------|
 |     1      |     8783     |
 |     2      |     4023     |
@@ -328,8 +319,6 @@ Aggregating the above statistics for the percentage of Github issues which requi
 |  SWE-Bench test set                |     24.89          |
 |  SWE-Bench_Verified test set       |     <i>14.2</i>           |
 
-<!-- If we consider the SWE-Bench train set as a representative of real-world, then by the same definition, we can not consider the SWE-Bench_Verified test set as the true representative of our progress on SWE tasks given the much lower percentage of issues which require changes across >1 file for resolution. -->
-
 {% quote %}
   If we consider the SWE-Bench train set as a representative of real-world, then by the same definition, we can not consider the SWE-Bench_Verified test set as the true representative of our progress on SWE tasks given the much lower percentage of issues which require changes across >1 file for resolution.
 {% endquote %}
@@ -340,32 +329,3 @@ Aggregating the above statistics for the percentage of Github issues which requi
 - The leaderboard should break down the performance of each new entry across both buckets (single file and multiple files), in addition to the overall benchmark performance.
 
 - We need a larger human-validated dataset which captures changes across multiple files, given 71 instances (SWE-Bench_Verified) is a very small number (even smaller than the HumanEval benchmark of 164 hand-crafted programming challenges, designed to evaluate an LLM’s code generation capabilities).
-
-
-## References
-<a id="1">[1]</a>
-http://www.swebench.com
-
-<a id="2">[2]</a>
-https://www.cognition.ai/blog/introducing-devin
-
-<a id="3">[3]</a>
-https://huggingface.co/datasets/princeton-nlp/SWE-bench
-
-<a id="4">[4]</a>
-https://huggingface.co/datasets/princeton-nlp/SWE-bench_Lite
-
-<a id="5">[5]</a>
-https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified
-
-<a id="6">[6]</a>
-SWE-bench: Can Language Models Resolve Real-world Github Issues?
-Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik R
-The Twelfth International Conference on Learning Representations
-
-<a id="7">[7]</a>
-https://openai.com/index/introducing-swe-bench-verified/
-
-<a id="8">[8]</a>
-https://pypi.org/project/unidiff/
-
