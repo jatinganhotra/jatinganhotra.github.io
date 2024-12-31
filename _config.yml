@@ -28,6 +28,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll_quote
+  - jekyll-sitemap
 
 # Theme-specific settings
 
