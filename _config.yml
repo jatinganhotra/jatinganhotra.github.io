@@ -3,7 +3,7 @@ author:
   name: Jatin Ganhotra
 image:
   # path: DALLE 2024-12-30 20.29.18 - A futuristic scene focusing on a male human of Indian descent interacting with a computer orchestrating various software engineering tools.WebP
-  path: /assets/images/DALLE.WebP
+  src: /assets/images/DALLE.WebP
   height: 100
   width: 100
 
