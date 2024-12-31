@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Keyboard Review - Microsoft Natural Ergonomic Keyboard 4000"
-categories: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
+# categories: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
+tags: [Keyboard Review, Microsoft Natural Ergonomic Keyboard]
 ---
 
 As a software developer, I spend about 6-8 hours typing on a typical day. My search for a better keyboard began, when I started having wrist pain and my fingers felt enervated after a few hours. On doing some research, I found that these are the symptoms of an [Repetitive Strain Injury(RSI)](http://en.wikipedia.org/wiki/Repetitive_strain_injury). Other than maintaining a good posture while sitting, I started investigating keyboards which allowed writing with ease and placed my wrists in a comfortable position.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Concurrent and Sequential statements in Verilog"
-categories: [Verilog]
+# categories: [Verilog]
+tags: [Verilog]
 ---
 
 This is a brief post for beginners to Verilog language, coming from a C/Java background.

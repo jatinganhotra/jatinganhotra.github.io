@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "C++ - Variable Declaration in 'if' expression"
-categories: [C, C++, Coding Tips, Variable Declaration]
+# categories: [C, C++, Coding Tips, Variable Declaration]
+tags: [C, C++, Coding Tips, Variable Declaration]
 ---
 
 Recently, I encountered a strange compiler error at work. I was trying something similar to this:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Comparison is always false due to limited range of data type"
-categories: [C, C++, Coding Tips]
+# categories: [C, C++, Coding Tips]
+tags: [C, C++, Coding Tips]
 ---
 
 This is a small and crisp post over this warning message that appeared quite strange at first. On a closer look though, the reason behind it was pretty clear and straight-forward.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "SWE-Bench Verified ⊊ real-world SWE tasks"
-categories: [SWE-Bench, SWE-Bench_Verified, SWE]
+# categories: [SWE-Bench, SWE-Bench_Verified, SWE]
+tags: [SWE-Bench, SWE-Bench_Verified]
 ---
 
 The title "SWE-Bench Verified `⊊` real-world SWE tasks", conveys 2 points:

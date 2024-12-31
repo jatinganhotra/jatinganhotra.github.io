@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Integer Limits and Types In C/C++"
-categories: [C, C++, Coding Tips, Integer Limits]
+# categories: [C, C++, Coding Tips, Integer Limits]
+tags: [C, C++, Coding Tips, Integer Limits]
 ---
 
 Unlike [Java](http://java.com/en/) or [C#](http://en.wikipedia.org/wiki/C_Sharp_\(programming_language\)), [primitive data types](http://en.wikipedia.org/wiki/Primitive_data_type) in C++ can vary in size depending on the platform. For example, int is not guaranteed to be a 32-bit integer. The size of basic C++ types depends on

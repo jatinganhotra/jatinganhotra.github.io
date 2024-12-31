@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Installing Octave on OS X 10.9 Mavericks"
-categories: [Mac OS X, Octave, How to Install]
+# categories: [Mac OS X, Octave, How to Install]
+tags: [Mac OS X, Octave, How to Install]
 ---
 
 If you upgraded to OS X 10.9 Mavericks and have started to like the latest enhancements in Finder, new iBooks and Maps applications etc., installing Octave is going to make you forget all of it. The installation process is a herculean task and you better pray to God that you don't run into much issues like I did.

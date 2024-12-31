@@ -1,6 +1,11 @@
 title: Jatin Ganhotra
 author:
   name: Jatin Ganhotra
+image:
+  # path: DALLE 2024-12-30 20.29.18 - A futuristic scene focusing on a male human of Indian descent interacting with a computer orchestrating various software engineering tools.WebP
+  path: /assets/images/DALLE.WebP
+  height: 100
+  width: 100
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -31,9 +36,13 @@ plugins:
 header_pages:
   - publications.md
   - about.md
+  - archive.html
 
 # Set to `true` to show excerpts on the homepage.
 show_excerpts: true
+
+disqus:
+    shortname: jatinganhotra
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:

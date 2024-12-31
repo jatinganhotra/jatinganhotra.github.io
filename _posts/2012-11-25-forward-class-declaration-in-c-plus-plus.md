@@ -2,7 +2,8 @@
 layout: post
 title: "Forward Class Declaration in C++"
 date: 2012-11-25 21:00
-categories: [Forward Class Declaration, C++, Coding Tips]
+# categories: [Forward Class Declaration, C++, Coding Tips]
+tags: [Forward Class Declaration, C++, Coding Tips]
 ---
 
 "In computer programming, a [forward declaration]("http://en.wikipedia.org/wiki/Forward_declaration) is a declaration of an identifier (denoting an entity such as a type, a variable, or a function) for which the programmer has not yet given a complete definition."
