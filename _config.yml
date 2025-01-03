@@ -20,6 +20,16 @@ description: >
   Hello, I'm Jatin Ganhotra. I am a Senior Software Engineer at IBM Research,
   building autonomous SWE-Agents. You can learn more about my current work here: IBM SWE-Agents https://research.ibm.com/blog/ibm-swe-agents.  
 
+
+# https://github.com/jekyll/jekyll/issues/9297#issuecomment-2137865682
+# Added to show Markdown in details for the SWE-Bench multiple files article
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+
+google_analytics: G-0HZN4H0T1W
+
 # Build settings
 
 # If you clone the Minima repo and build locally, use this setting.
