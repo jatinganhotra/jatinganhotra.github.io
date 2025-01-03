@@ -23,9 +23,11 @@ description: >
 
 # https://github.com/jekyll/jekyll/issues/9297#issuecomment-2137865682
 # Added to show Markdown in details for the SWE-Bench multiple files article
-markdown: kramdown
-kramdown:
-  parse_block_html: true
+# markdown: kramdown
+# kramdown:
+#   parse_block_html: true
+# NOTE: The above breaks the CodeAct article-2 page. So, commenting it out for now.
+# Only article-2 breaks, because article-1 has no cite tags.
 
 
 google_analytics: G-0HZN4H0T1W
