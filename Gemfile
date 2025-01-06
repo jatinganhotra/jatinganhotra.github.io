@@ -12,4 +12,9 @@ group :jekyll_plugins do
     gem 'jekyll_quote'
     gem "jekyll-seo-tag"
     gem 'jekyll-spaceship'
+    # https://lazee.github.io/premonition-demo/
+    # https://github.com/lazee/premonition/tree/master
+    gem 'premonition', '~> 4.0', '>= 4.0.2'
+    # https://github.com/bdesham/reading_time?tab=readme-ov-file
+    gem 'liquid_reading_time'
 end

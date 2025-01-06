@@ -48,6 +48,8 @@ plugins:
   - jekyll-gist
   - jekyll_quote
   - jekyll-sitemap
+  - liquid_reading_time
+  - premonition
 
 # Theme-specific settings
 

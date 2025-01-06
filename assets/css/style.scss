@@ -5,4 +5,6 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/jekyll_quote",
+  // https://github.com/lazee/premonition/blob/master/stylesheet/premonition.scss
+  "minima/premonition",
   "minima/initialize";

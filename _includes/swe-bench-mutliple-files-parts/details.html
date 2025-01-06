@@ -1,0 +1,340 @@
+{% capture details_category_1_instance_1 %}
+
+<br>files in gold patch:
+- <r>sklearn/base.py</r>
+- <r>sklearn/feature_selection/_base.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                        |
+|:--------------------------------------------------------|:-------------------|:---------------------------------------------------------------------------|
+| devlo                                                 |                1 | sklearn/utils/_set_output.py                                             |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                3 | reproduce_error.py<br>sklearn/utils/_set_output.py<br>test_edge_cases.py |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | sklearn/utils/_set_output.py                                             |
+| Bytedance MarsCode Agent                              |                1 | sklearn/utils/_set_output.py                                             |
+
+{% endcapture %}
+
+{% capture details_category_1_instance_2 %}
+
+<br>files in gold patch:
+- <r>django/core/serializers/python.py</r>
+- <r>django/core/serializers/xml_serializer.py</r>
+
+| Model                                        |   &#8203;# files | model_patch files               |
+|:-----------------------------------------------|:-------------------|:----------------------------------|
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022) |                1 | django/db/models/query_utils.py |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_1 %}
+
+<br>files in gold patch:
+- <g>django/urls/resolvers.py</g>
+- <o>django/urls/base.py</o>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                      |
+|:--------------------------------------------------------|:-------------------|:-----------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                1 | django/urls/resolvers.py                                                               |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                4 | django/urls/base.py<br>django/urls/resolvers.py<br>reproduce.py<br>test_cache_clear.py |
+| nFactorial (2024-11-05)                               |                2 | django/urls/base.py<br>django/urls/resolvers.py                                        |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_2 %}
+
+<br>files in gold patch:
+- <g>django/core/mail/utils.py</g>
+- <o>django/core/mail/message.py</o>
+- <r>django/core/validators.py</r>
+- <r>django/utils/encoding.py</r>
+- <r>django/utils/html.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                        |
+|:--------------------------------------------------------|:-------------------|:-----------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                2 | django/core/mail/message.py<br>django/core/mail/utils.py |
+| devlo                                                 |                1 | django/core/mail/utils.py                                |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                2 | django/core/mail/utils.py<br>reproduce.py                |
+| Engine Labs (2024-11-25)                              |                2 | django/core/mail/utils.py<br>reproduce_issue.py          |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | django/core/mail/utils.py                                |
+| Bytedance MarsCode Agent                              |                1 | django/core/mail/utils.py                                |
+| Tools + Claude 3.5 Sonnet (2024-10-22)                |                2 | django/core/mail/utils.py<br>reproduce_error.py          |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_3 %}
+
+<br>files in gold patch:
+- <g>django/contrib/admindocs/utils.py</g>
+- <r>django/contrib/admindocs/views.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                                 |
+|:--------------------------------------------------------|:-------------------|:----------------------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                1 | django/contrib/admindocs/utils.py                                                                 |
+| devlo                                                 |                1 | django/contrib/admindocs/utils.py                                                                 |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                2 | django/contrib/admindocs/utils.py<br>reproduce_error.py                                           |
+| Engine Labs (2024-11-25)                              |                2 | django/contrib/admindocs/utils.py<br>test_docstring.py                                            |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | django/contrib/admindocs/utils.py                                                                 |
+| Solver (2024-10-28)                                   |                1 | django/contrib/admindocs/utils.py                                                                 |
+| Bytedance MarsCode Agent                              |                1 | django/contrib/admindocs/utils.py                                                                 |
+| nFactorial (2024-11-05)                               |                1 | django/contrib/admindocs/utils.py                                                                 |
+| Tools + Claude 3.5 Sonnet (2024-10-22)                |                3 | django/contrib/admindocs/utils.py<br>reproduce_docstring_issue.py<br>test_docstring_edge_cases.py |
+| Composio SWE-Kit (2024-10-25)                         |                1 | django/contrib/admindocs/utils.py                                                                 |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_4 %}
+
+<br>files in gold patch:
+- <g>django/db/models/base.py</g>
+- <r>django/db/models/options.py</r>
+
+| Model                                        |   &#8203;# files | model_patch files        |
+|:-----------------------------------------------|:-------------------|:---------------------------|
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022) |                1 | django/db/models/base.py |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_5 %}
+
+<br>files in gold patch:
+- <o>django/db/backends/base/operations.py</o>
+- <o>django/db/backends/mysql/operations.py</o>
+- <o>django/db/backends/sqlite3/operations.py</o>
+- <r>django/db/models/expressions.py</r>
+
+| Model                                    |   &#8203;# files | model_patch files                                                                                                                                                    |
+|:-------------------------------------------|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev) |                1 | django/db/backends/sqlite3/operations.py                                                                                                                             |
+| devlo                                    |                1 | django/db/backends/base/operations.py                                                                                                                                |
+| Engine Labs (2024-11-25)                 |                2 | django/db/backends/base/operations.py<br>repro.py                                                                                                                    |
+| Tools + Claude 3.5 Sonnet (2024-10-22)   |                6 | django/db/backends/mysql/operations.py<br>django/db/backends/sqlite3/operations.py<br>reproduce.py<br>test_app/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py<br>test_app/models.py<br>test_settings.py |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_6 %}
+
+<br>files in gold patch:
+- <o>django/db/backends/base/schema.py</o>
+- <r>django/db/models/fields/__init__.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                        |
+|:--------------------------------------------------------|:-------------------|:---------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                1 | django/db/backends/sqlite3/schema.py                                     |
+| devlo                                                 |                1 | django/db/backends/sqlite3/schema.py                                     |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                2 | db.sqlite3<br>django/db/backends/base/schema.py                          |
+| Engine Labs (2024-11-25)                              |                2 | django/db/backends/base/schema.py<br>test_choices.py                     |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | django/db/backends/base/schema.py                                        |
+| Solver (2024-10-28)                                   |                2 | django/db/backends/base/schema.py<br>tests/migrations/test_operations.py |
+| Bytedance MarsCode Agent                              |                1 | django/db/backends/base/schema.py                                        |
+| nFactorial (2024-11-05)                               |                1 | django/db/backends/base/schema.py                                        |
+| Tools + Claude 3.5 Sonnet (2024-10-22)                |                2 | django/db/backends/base/schema.py<br>reproduce.py                        |
+| Composio SWE-Kit (2024-10-25)                         |                1 | django/db/backends/base/schema.py                                        |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_7 %}
+
+<br>files in gold patch:
+- <o>django/db/models/sql/query.py</o>
+- <r>django/db/models/fields/related_lookups.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                                        |
+|:--------------------------------------------------------|:-------------------|:-----------------------------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                2 | django/db/models/query.py<br>django/db/models/sql/query.py                                               |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                1 | django/db/models/lookups.py                                                                              |
+| Engine Labs (2024-11-25)                              |                3 | django/db/models/lookups.py<br>test_fix.py<br>test_settings.py                                           |
+| Solver (2024-10-28)                                   |                3 | django/db/models/lookups.py<br>django/db/models/sql/query.py<br>tests/annotations/test_alias_subquery.py |
+
+{% endcapture %}
+
+{% capture details_category_2_instance_8 %}
+
+<br>files in gold patch:
+- <g>lib/matplotlib/text.py</g>
+- <o>lib/matplotlib/backends/backend_agg.py</o>
+- <o>lib/matplotlib/backends/backend_cairo.py</o>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                                                           |
+|:--------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------------------------------------------|
+| devlo                                                 |                3 | lib/matplotlib/backends/backend_agg.py<br>lib/matplotlib/backends/backend_cairo.py<br>lib/matplotlib/text.py                |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                4 | lib/matplotlib/backends/backend_agg.py<br>lib/matplotlib/text.py<br>test_text_antialiasing.py<br>text_antialiasing_test.png |
+| Engine Labs (2024-11-25)                              |                4 | lib/matplotlib/backends/backend_agg.py<br>lib/matplotlib/text.py<br>simple_test_text.py<br>test_text_antialiasing.py        |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | lib/matplotlib/text.py                                                                                                      |
+| nFactorial (2024-11-05)                               |                1 | lib/matplotlib/text.py                                                                                                      |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_9 %}
+
+<br>files in gold patch:
+- <g>xarray/core/variable.py</g>
+- <r>xarray/core/indexing.py</r>
+
+| Model                                    |   &#8203;# files | model_patch files       |
+|:-------------------------------------------|:-------------------|:--------------------------|
+| Amazon Q Developer Agent (v20241202-dev) |                1 | xarray/core/variable.py |
+| devlo                                    |                1 | xarray/core/variable.py |
+| Solver (2024-10-28)                      |                1 | xarray/core/variable.py |
+| nFactorial (2024-11-05)                  |                1 | xarray/core/variable.py |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_10 %}
+
+<br>files in gold patch:
+- <o>xarray/core/dataset.py</o>
+- <o>xarray/core/variable.py</o>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                       |
+|:--------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                2 | xarray/core/dataset.py<br>xarray/core/variable.py                                       |
+| devlo                                                 |                1 | xarray/core/dataarray.py                                                                |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                4 | reproduce.py<br>test_edge_cases.py<br>xarray/core/dataset.py<br>xarray/core/variable.py |
+| Engine Labs (2024-11-25)                              |                3 | reproduce_issue.py<br>xarray/core/dataset.py<br>xarray/core/variable.py                 |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | xarray/core/dataarray.py                                                                |
+| Solver (2024-10-28)                                   |                2 | xarray/core/dataset.py<br>xarray/core/variable.py                                       |
+| Bytedance MarsCode Agent                              |                1 | xarray/core/dataarray.py                                                                |
+| nFactorial (2024-11-05)                               |                1 | xarray/core/dataarray.py                                                                |
+| Tools + Claude 3.5 Sonnet (2024-10-22)                |                3 | reproduce.py<br>xarray/core/dataset.py<br>xarray/core/variable.py                       |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_11 %}
+
+<br>files in gold patch:
+- <g>xarray/core/dataarray.py</g>
+- <r>xarray/core/dataset.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                                                       |
+|:--------------------------------------------------------|:-------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| devlo                                                 |                1 | xarray/core/dataarray.py                                                                                                |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                2 | reproduce.py<br>xarray/core/dataarray.py                                                                                |
+| Engine Labs (2024-11-25)                              |                5 | test_final.py<br>test_integrate.py<br>test_integrate_changes.py<br>test_integrate_simple.py<br>xarray/core/dataarray.py |
+| Solver (2024-10-28)                                   |                1 | xarray/core/dataarray.py                                                                                                |
+| Bytedance MarsCode Agent                              |                1 | xarray/core/dataarray.py                                                                                                |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_12 %}
+
+<br>files in gold patch:
+- <g>pylint/lint/pylinter.py</g>
+- <r>pylint/lint/expand_modules.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                           |
+|:--------------------------------------------------------|:-------------------|:----------------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                1 | pylint/lint/pylinter.py                                                                     |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                6 | .a/foo.py<br>ar.py<br>az.py<br>pylint/lint/pylinter.py<br>reproduce_error.py<br>test_fix.py |
+| Solver (2024-10-28)                                   |                1 | pylint/lint/pylinter.py                                                                     |
+| Tools + Claude 3.5 Sonnet (2024-10-22)                |                3 | pylint/lint/pylinter.py<br>reproduce.py<br>test_ignore.py                                   |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_13 %}
+
+<br>files in gold patch:
+- <g>pylint/config/argument.py</g>
+- <r>pylint/utils/__init__.py</r>
+- <r>pylint/utils/utils.py</r>
+
+| Model                                        |   &#8203;# files | model_patch files                           |
+|:-----------------------------------------------|:-------------------|:----------------------------------------------|
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022) |                1 | pylint/config/argument.py                   |
+| nFactorial (2024-11-05)                      |                2 | pylint/config/argument.py<br>pyproject.toml |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_14 %}
+
+<br>files in gold patch:
+- <g>src/_pytest/unittest.py</g>
+- <r>src/_pytest/python.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                   |
+|:--------------------------------------------------------|:-------------------|:------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                1 | src/_pytest/unittest.py                             |
+| devlo                                                 |                2 | src/_pytest/unittest.py<br>test_reproduce.py        |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                2 | reproduce_error.py<br>src/_pytest/unittest.py       |
+| Engine Labs (2024-11-25)                              |                2 | src/_pytest/unittest.py<br>test_unittest_fixture.py |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | src/_pytest/unittest.py                             |
+| Solver (2024-10-28)                                   |                2 | src/_pytest/unittest.py<br>test_unittest_fixture.py |
+| Bytedance MarsCode Agent                              |                1 | src/_pytest/unittest.py                             |
+| nFactorial (2024-11-05)                               |                1 | src/_pytest/unittest.py                             |
+| Tools + Claude 3.5 Sonnet (2024-10-22)                |                2 | reproduce_issue.py<br>src/_pytest/unittest.py       |
+| Composio SWE-Kit (2024-10-25)                         |                1 | src/_pytest/unittest.py                             |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_15 %}
+
+<br>files in gold patch:
+- <g>sklearn/decomposition/dict_learning.py</g>
+- <r>examples/decomposition/plot_sparse_coding.py</r>
+
+| Model                                        |   &#8203;# files | model_patch files                                             |
+|:-----------------------------------------------|:-------------------|:----------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)     |                1 | sklearn/decomposition/dict_learning.py                        |
+| Engine Labs (2024-11-25)                     |                2 | sklearn/decomposition/dict_learning.py<br>test_sparsecoder.py |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022) |                1 | sklearn/decomposition/dict_learning.py                        |
+| Bytedance MarsCode Agent                     |                1 | sklearn/decomposition/dict_learning.py                        |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_16 %}
+
+<br>files in gold patch:
+- <o>sphinx/application.py</o>
+- <o>sphinx/locale/__init__.py</o>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                               |
+|:--------------------------------------------------------|:-------------------|:--------------------------------------------------------------------------------------------------|
+| devlo                                                 |                1 | sphinx/locale/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py                                                                       |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |                4 | sphinx/config.py<br>sphinx/locale/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py<br>sphinx/util/i18n.py<br>test_locale_override.py |
+| Agentless-1.5 + Claude-3.5 Sonnet (20241022)          |                1 | sphinx/locale/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py                                                                       |
+| Solver (2024-10-28)                                   |                1 | sphinx/application.py                                                                           |
+| Bytedance MarsCode Agent                              |                1 | sphinx/locale/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py                                                                       |
+| Composio SWE-Kit (2024-10-25)                         |                1 | sphinx/application.py                                                                           |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_17 %}
+
+<br>files in gold patch:
+- <g>sphinx/ext/autodoc/__init__.py</g>
+- <r>sphinx/ext/autodoc/importer.py</r>
+
+| Model                                                 |   &#8203;# files | model_patch files                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|:--------------------------------------------------------|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amazon Q Developer Agent (v20241202-dev)              |                1 | sphinx/ext/autodoc/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022) |               31 | sphinx/ext/autodoc/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py<br>sphinx/pycode/parser.py<br>test_meta_public.py<br>test_meta_public_dir/_build/html/.buildinfo<br>test_meta_public_dir/_build/html/.doctrees/environment.pickle<br>test_meta_public_dir/_build/html/.doctrees/index.doctree<br>test_meta_public_dir/_build/html/_sources/index.rst.txt<br>test_meta_public_dir/_build/html/_static/alabaster.css<br>test_meta_public_dir/_build/html/_static/basic.css<br>test_meta_public_dir/_build/html/_static/custom.css<br>test_meta_public_dir/_build/html/_static/doctools.js<br>test_meta_public_dir/_build/html/_static/documentation_options.js<br>test_meta_public_dir/_build/html/_static/file.png<br>test_meta_public_dir/_build/html/_static/jquery-3.5.1.js<br>test_meta_public_dir/_build/html/_static/jquery.js<br>test_meta_public_dir/_build/html/_static/language_data.js<br>test_meta_public_dir/_build/html/_static/minus.png<br>test_meta_public_dir/_build/html/_static/plus.png<br>test_meta_public_dir/_build/html/_static/pygments.css<br>test_meta_public_dir/_build/html/_static/searchtools.js<br>test_meta_public_dir/_build/html/_static/underscore-1.3.1.js<br>test_meta_public_dir/_build/html/_static/underscore.js<br>test_meta_public_dir/_build/html/genindex.html<br>test_meta_public_dir/_build/html/index.html<br>test_meta_public_dir/_build/html/objects.inv<br>test_meta_public_dir/_build/html/py-modindex.html<br>test_meta_public_dir/_build/html/search.html<br>test_meta_public_dir/_build/html/searchindex.js<br>test_meta_public_dir/conf.py<br>test_meta_public_dir/example.py<br>test_meta_public_dir/index.rst |
+| Bytedance MarsCode Agent                              |                1 | sphinx/ext/autodoc/{% raw %}__{% endraw %} init {% raw %}__{% endraw %}.py                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+{% endcapture %}
+
+
+{% capture details_category_2_instance_18 %}
+
+<br>files in gold patch:
+- <g>sympy/simplify/sqrtdenest.py</g>
+- <r>sympy/simplify/radsimp.py</r>
+
+| Model                    |   &#8203;# files | model_patch files            |
+|:---------------------------|:-------------------|:-------------------------------|
+| Engine Labs (2024-11-25) |                1 | sympy/simplify/sqrtdenest.py |
+
+{% endcapture %}

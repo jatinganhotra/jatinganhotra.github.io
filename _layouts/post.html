@@ -10,6 +10,7 @@ layout: base
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
+      &nbsp;&nbsp;
       <!-- https://emmatheeng.github.io/projects/blog_setup/blog-tags.html -->
       {%- if page.tags -%}
         {% for tag in page.tags %}
@@ -18,6 +19,9 @@ layout: base
         </a>
         {% endfor %}
       {%- endif -%}
+      <br/>
+      <!-- https://github.com/bdesham/reading_time?tab=readme-ov-file -->
+      <i>Reading time</i>: {{ content | reading_time | pluralize: "minute" }} minutes.
       {%- if page.modified_date -%}
         ~ 
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
