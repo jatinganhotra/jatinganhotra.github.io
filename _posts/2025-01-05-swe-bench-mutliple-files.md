@@ -8,6 +8,7 @@ tags: [SWE-Bench_Verified]
 The year 2024 was remarkable for SWE-Agents, as we celebrated significant advancements in system performance on our cherished [SWE-Bench](http://www.swebench.com) benchmark. This progress was especially notable on the [SWE-Bench Verified](https://openai.com/index/introducing-swe-bench-verified/) benchmark since its release.  
 
 In a [previous post](https://jatinganhotra.github.io/blog/swe-agents/2024/12/26/swe-bench-verified.html), I discussed why `SWE-Bench Verified` may not accurately represent real-world SWE tasks, primarily due to the low proportion of issues requiring code changes across multiple files. If you haven’t read that post yet, I recommend doing so before continuing with this one. 
+
 <!-- 2024 was a great year for SWE-Agents and we have celebrated the rapid advance in performance of systems on our beloved [SWE-Bench](http://www.swebench.com) benchmark, especially on the [SWE-Bench Verified](https://openai.com/index/introducing-swe-bench-verified/) benchmark since it was released.
 
 In a [prior post](https://jatinganhotra.github.io/blog/swe-agents/2024/12/26/swe-bench-verified.html), I highlighted why `SWE-Bench Verified` is not a valid representation of real-world SWE tasks given the low percentage of issues which require code changes across multiple files. If you haven't done the post, I suggest reading it first before continuing with this post. -->
