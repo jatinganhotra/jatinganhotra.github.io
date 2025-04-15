@@ -103,31 +103,5 @@ While we've made impressive strides in addressing isolated coding challenges, ou
 
 For meaningful advancement in AI-assisted programming, future versions of SWE-Bench-Verified should rebalance to reflect realistic multi-file ratios, providing a more accurate measure of practical capability. As [I argued in my January 2025 post](https://jatinganhotra.github.io/blog/swe-agents/2025/01/05/swe-bench-mutliple-files.html), the current impressive performance numbers on the leaderboard must be interpreted with this significant caveat in mind.
 
-True programming intelligence will emerge when systems can seamlessly navigate the intricate web of dependencies that characterize modern software development—not just when they excel at isolated modifications. Until then, we should recognize that the current benchmarks, while valuable, present an overly optimistic view of AI's programming capabilities in real-world scenarios.
-
-<!-- * Do not remove this line (it will not be displayed)
-{:toc} -->
-
-<!-- useful link for details markdown: https://github.com/jekyll/jekyll/issues/9297#issuecomment-2137865682 -->
-
-<!-- escape __init__.py correctly in table
-https://stackoverflow.com/questions/33705722/escaping-character-sequences-with-jekyll-and-liquid -->
-
-<!-- TODO: Calculate the new stats for full SWE-Bench test set.
-if the blog gets too big, may just stop at the first level of analysis.
-Comments: Post is too big already, skipping. -->
-
-<!-- 2-column layout
-<style>
-.grid {
-  display: flex;
- }
-.col-1-2 {
-  flex: 1;
-}
-.cole-1-2:last-child {
-  margin-left: 20px;
-}
-</style>
-<div class="grid .col-1-2">
-</div> -->
+> error ""
+> We should recognize that SWE-Bench-Verified, while valuable, presents an overly optimistic view of AI's programming capabilities in real-world scenarios.
